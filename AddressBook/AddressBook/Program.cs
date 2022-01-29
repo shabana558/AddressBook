@@ -13,7 +13,9 @@ namespace AddressBook
 
         Console.WriteLine("Welcome To Address Book System!");
             Createacontact.GetCustomer();
+            AddressBook.Createacontact.Modify();
             Createacontact.ListingPeople();
+
 
 
 
