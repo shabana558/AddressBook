@@ -12,13 +12,13 @@ namespace AddressBook
 
         static void Main(string[] args)
         {
-
             Console.WriteLine("Welcome To Address Book System!");
-            Createacontact.GetCustomer();
-            AddressBook.Createacontact.Modify();
-            Createacontact.ListingPeople();
+            Console.WriteLine("1.Enter to add the details");
+            Console.WriteLine("2.Enter to modify the details");
+            Console.WriteLine("3.Listing the details..");
             Console.WriteLine("4.Remove the details");
             Console.WriteLine("Enter a option");
+
             switch (Console.ReadLine())
             {
                 case "1":
